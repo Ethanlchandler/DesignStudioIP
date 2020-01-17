@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import '~material-design-icons/iconfont/material-icons.css';
+
+.header {
+    padding: 60px;
+    text-align: Left;
+    background: #23a890;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: blueviolet;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+

@@ -1,0 +1,11 @@
+<div>
+<h2>Current Users</h2>
+  <ul *ngFor = "let camper of campers let i = index">
+    <li>
+       Name: {{camper.firstName}} {{camper.lastName}} <br>Emergency Contact: {{camper.emergencyContact}} <br> campground: {{camper.campground}}
+       <br>
+       <button mat-button color="warn" (click)="onDelete(camper._id)">DELETE</button>
+       <button mat-button color="accent" [routerLink]="['/editCamper', camper._id]">UPDATE</button>
+    </li>
+  </ul>
+</div>
